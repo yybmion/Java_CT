@@ -1,18 +1,26 @@
+package Part1;
+
 import java.io.*;
 
-public class Pt1_2753 {
+public class Pt1_2588 {
     public static void main(String[] args) throws IOException {
+
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         int N = Integer.parseInt(bf.readLine());
+        int M = Integer.parseInt(bf.readLine());
 
-        if((N%4 == 0 && N%100 != 0) || N%400 == 0){
-            bw.write("1");
-        }else{
-            bw.write("0");
+        for (int i=String.valueOf(M).length()-1 ; i>=0 ; i--){
+            char target;
+            target = String.valueOf(M).charAt(i);
+
+            bw.write((Character.getNumericValue(target) * N) +"\n");
         }
 
+        bw.write(String.valueOf(N*M));
+
         bw.flush();
+
     }
 }
