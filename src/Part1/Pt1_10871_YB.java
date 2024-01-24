@@ -2,7 +2,7 @@ package Part1;
 
 import java.io.*;
 
-public class Pt1_10871 {
+public class Pt1_10871_YB {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
