@@ -27,3 +27,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### mine ###
+.gitignore
+java_ct.iml
+.idea
