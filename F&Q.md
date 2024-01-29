@@ -18,7 +18,7 @@
 
 2-1. 먼저 지금 이 조직의 리포지토리를 나의 origin(내 깃허브)에 Fork해온다.
 
-![1|500](https://github.com/Algorithms-CT/Java_CT/assets/113106136/c2c9e0b6-c5a2-4b88-8886-d169ddb80e53){: width="100" height="100"}
+![1|500](https://github.com/Algorithms-CT/Java_CT/assets/113106136/c2c9e0b6-c5a2-4b88-8886-d169ddb80e53)
 ![2](https://github.com/Algorithms-CT/Java_CT/assets/113106136/9e65ff4f-cc47-49c0-93c4-dbda66207c40)
 ![3](https://github.com/Algorithms-CT/Java_CT/assets/113106136/d0cc9fd3-74f9-48c6-95a9-9523a00087f1)
 
