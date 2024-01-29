@@ -130,6 +130,33 @@ git push origin <나의 브랜치 이름>
 - 어쨋든 위의 과정을 마치고 자신의 리포지토리의 내가 만든 브랜치에 들어가보면 데이터가 최신화 되고
 - Pull request 요청도 들어올 것이다.
 
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/61ae19bb-7e8d-45e3-a40e-d75024010511)
+
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/df938f0e-471f-4313-8976-058cb6a5afaf)
+
+첫번째 내 리포지토리의 내가 만든 브랜치에서 조직의 main 리포지토리로 화살표 방향이 잘 되어있는지 확인하고 
+
+두번째 able to merge를 확인하고 
+
+세번째 create pull request를 누른다.
+
+그럼 PUll request 완료!
+
+- 혹시라도 There isn't anything to compare이란 문구가 나온다면
+- 터미널에 해당 코드 한번 작성해주자
+
+```bash
+git pull origin main --allow-unrelated-histories
+```
+이후 다시 들어가면 잘 나타날 것이다.
+
+> Pull request 해 놓으면 Merge는 제가 해드리겠습니다.
+> 또한 Conflict 발생 시 말씀해주세요
+
+
+
+
+
 
 
 
