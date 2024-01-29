@@ -153,6 +153,16 @@ git pull origin main --allow-unrelated-histories
 > Pull request 해 놓으면 Merge는 제가 해드리겠습니다.
 > 또한 Conflict 발생 시 말씀해주세요
 
+### 3. 클래스 이름은 어떻게 하나요?
+
+> 클래스파일 이름은 다음과 같이 통일합니다.
+> 파트 1 문제를 풀고 있을때 예시입니다.
+> Pt1_문제 번호_자신의 이름 영문 이니셜(뒤 두자리)
+
+ ![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/fb5c4bff-c1a0-4b60-b81d-01bb591bd72c)
+
+
+
 
 
 
