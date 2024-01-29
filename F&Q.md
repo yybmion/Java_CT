@@ -63,10 +63,76 @@ git remote add father <원본 저장소 url>   // 원본 저장소 url은 조직
 ![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/519328cd-8d24-44c0-9b1c-9d2f9d3c597a)
 
 - 앞에 설정한 url 두개는 서로 다르니 주의하자!!!! 꼭
+
+2-7. git add. / git commit 
+
+```bash
+git add .
+git commit -m "원하는 커밋 메시지"
+```
+
+2-8. 나의 리포지토리 url remote 설정하기
+
+```bash
+git remote add origin <나의 리포지토리 url>
+```
+- 이 url은 아까 clone할때 사용한 내 리포지토리 url이다.
 - git remote -v 를 통해 origin하고 upstream 리포지토리가 설정된 것을 볼 수 있을것이다.
 - 결과는 다음과 같아야한다.
 
 ![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/56f2a8dc-25b3-4fde-a2f9-081f3f3e323f)
 
 - 물론 자신의 리포지토리 url은 다르다. 조직만 같다.
+
+2-9. branch 생성
+
+```bash
+git branch <branch 이름>  // branch이름은 자기 이름 이니셜 + 학번 마지막 5자리로 통일한다.
+git checkout <branch 이름>
+git checkout -b <branch 이름>
+```
+
+> 위에서도 말했듯이 **branch 이름은 자기 이름 이니셜 + 학번 마지막 5자리**로 통일한다.
+
+- 정상적으로 branch생성 후 이동이 되었으면 다음과 같은 그림과 같은것이다.
+
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/90d1937e-8246-476a-9f60-e9e0ea7ef620)
+
+- 이제 해당 브랜치에서만 작업하면 된다.
+
+2-10. .gitignore 생성
+
+- 우리는 파일중에서 올리지 말아야할 파일들이 있다.
+- .gitignore을 통해서 push할때 올라가지 말아야할 파일들을 설정해 준다.
+
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/bee66a71-2dd0-423d-a0c8-dead775f8c4a)
+
+- new에서 file .gitignore이름의 파일을 생성해준다.
+- 여기서 out , .idea, .gitignore, java_ct.iml은 올라가지 않도록 적어준다.
+- 추가적으로 올리고 싶지 않은 파일이 있다면 설정해주자.
+
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/8ad89ec2-aa87-4e51-bf5e-8ab9d9a339b2)
+
+2-11. 코드 작업 후 add/commit/push
+
+- 코드를 작성하고 어떤 파일이 modified 상태라면
+
+```bash
+git rm -r --cached .   // . 붙여야 한다!!!!
+git add .   // 특정 파일만 올리고 싶으면 . 대신 파일 이름 
+git commit -m "clear tutorial!"
+git push origin <나의 브랜치 이름>
+```
+
+- git rm -r --cached . 는 .gitignore을 설정했음에도 적용이 되지 않을 때
+- 해결해주는 코드이다.
+
+- 어쨋든 위의 과정을 마치고 자신의 리포지토리의 내가 만든 브랜치에 들어가보면 데이터가 최신화 되고
+- Pull request 요청도 들어올 것이다.
+
+
+
+
+
+
 
