@@ -1,4 +1,4 @@
-# Java-CT  <img src="https://img.shields.io/badge/JAVA-FF160B?style=for-the-badge&logo=java&logoColor=white">
+# Java-CT        <img src="https://img.shields.io/badge/JAVA-FF160B?style=for-the-badge&logo=java&logoColor=white">
 
 ## 자바를 통해 Algorithm을 배우는 공간
 
