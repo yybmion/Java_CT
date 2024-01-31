@@ -153,7 +153,7 @@ git pull origin main --allow-unrelated-histories
 > Pull request 해 놓으면 Merge는 제가 해드리겠습니다.
 > 또한 Conflict 발생 시 말씀해주세요
 
-#### Pull Request에 대래 잘 정리된 블로그 (https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-%EA%B9%83%ED%97%99-PRPull-Request-%EB%B3%B4%EB%82%B4%EB%8A%94-%EB%B0%A9%EB%B2%95-folk-issue)
+#### Pull Request에 대해 잘 정리된 블로그 (https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-%EA%B9%83%ED%97%99-PRPull-Request-%EB%B3%B4%EB%82%B4%EB%8A%94-%EB%B0%A9%EB%B2%95-folk-issue)
 
 ### 3. 클래스 이름은 어떻게 하나요?
 
