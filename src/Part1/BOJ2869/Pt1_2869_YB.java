@@ -1,4 +1,4 @@
-package Part1;
+package Part1.BOJ2869;
 
 import java.io.*;
 import java.util.StringTokenizer;

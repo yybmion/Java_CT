@@ -1,4 +1,4 @@
-package Part1;
+package Part1.BOJ1914;
 
 import java.io.*;
 import java.math.BigInteger;
