@@ -1,6 +1,8 @@
+package Part1;
+
 import java.io.*;
 
-public class Pt1_2588 {
+public class Pt1_2588_YB {
     public static void main(String[] args) throws IOException {
 
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
@@ -22,3 +24,11 @@ public class Pt1_2588 {
 
     }
 }
+
+/**
+ * test comment
+ */
+
+/**
+ * conlict test ++
+ */
