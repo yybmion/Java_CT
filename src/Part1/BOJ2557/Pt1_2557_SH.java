@@ -1,4 +1,4 @@
-package Part1;
+package Part1.BOJ2557;
 
 public class Pt1_2557_SH {
 

@@ -1,4 +1,4 @@
-package Part1;
+package Part1.BOJ10871;
 
 import java.io.*;
 import java.util.ArrayList;

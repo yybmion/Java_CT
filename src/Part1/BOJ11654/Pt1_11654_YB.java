@@ -1,4 +1,4 @@
-package Part1;
+package Part1.BOJ11654;
 
 import java.io.*;
 
