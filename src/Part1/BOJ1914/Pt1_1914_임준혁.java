@@ -33,7 +33,7 @@ public class Pt1_1914_임준혁 {
 
     public static void main(String[] args) {
         N = sc.nextInt();
-        
+
         System.out.println(hanoiDP(N));
 
         if(N > 20) return;
