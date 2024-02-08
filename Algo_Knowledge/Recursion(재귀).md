@@ -212,7 +212,7 @@ public static int binarySearch(int[] A, int left, int right, int x){
 
 - MID즉 반을 나누어 그 INDEX의 값이 찾는 10보다 작은지 큰지 확인한다.
 - 정렬되어있기 때문에 쉽게 찾을 수 있다.
-- 찾는 값이 더 크기 때문에 마지막 15줄 재귀함수를 실행한다.
+- 찾는 값이 더 크기 때문에 마지막 마지막줄 재귀함수를 실행한다.
 - 이렇게 계속해서 반으로 나누고 찾는 값의 크기를 비교해간다.
 
 ![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/b2db43a5-bf43-40cd-abe4-a9757eec3a6e)
