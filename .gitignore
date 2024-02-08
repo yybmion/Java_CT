@@ -2,4 +2,4 @@ out/
 .idea/
 java_ct.iml
 *.iml
-*.img
+.png
