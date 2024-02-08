@@ -58,7 +58,7 @@ public void recursion(int someValue){
 - 콜 스택은 **메모리 구조**를 보았으면 쉽게 이해할 수 있을것이다.
 - 메모리 구조는 다음과 같다.
 
-![img.png](../src/Algo_Knowledge/img.png)
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/b05bcdef-1bae-4e85-b8ef-e2f54c4d5d72)
 
 - 우리가 함수를 호출할 때 마다 저 스택 영역에 함수가 차곡차곡 쌓인다.
 - 예를 들어보자
@@ -79,7 +79,7 @@ public String C(){
 
 실행을 한다면
 
-![img_1.png](../src/Algo_Knowledge/img_1.png)
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/78da0b03-145f-4540-aa2c-84ee0d76edcc)
 
 - 다음과 같이 **Stack**에 쌓일 것이다.
 - 그럼 마지막 C는 더 이상 어떤 함수를 호출하지 않고 값을 반환하니
@@ -118,7 +118,7 @@ return reverseString(input.substring(1)) + input.charAt(0);
 
 **스택**으로 보자면
 
-![img_2.png](../src/Algo_Knowledge/img_2.png)
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/6a063f73-f443-4c1e-bb43-55fefd5adaad)
 
 - 다음과 같이 subString으로 첫번째 문자를 제외한 문자열을 다음 재귀함수로 보낸다.
 - 계속해서 맨 첫번째 문자를 제외하고 재귀를 호출하다보면
@@ -150,7 +150,7 @@ public static boolean isPalindrome(String input){
 }
 ```
 
-![img_3.png](../src/Algo_Knowledge/img_3.png)
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/7c8b1e61-a6dd-4260-9d14-1dfb1a672a7a)
 
 - 글자가 더이상 없거나 하나만 남을때는 팰린드롬 이므로 true반환
 - 양쪽 끝 값들끼리 비교해가며 동일하면 그다음 양쪽끝을 **재귀로 보내 또 확인**
@@ -172,7 +172,7 @@ public static String findBinary(int decimal, String result){
 }
 ```
 
-![img_4.png](../src/Algo_Knowledge/img_4.png)
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/b242eb47-ddde-46ee-8178-a0881f0ab95a)
 
 - 2를 나누고 그 값의 결과를 다음 재귀에서 사용해야하므로
 - 파라미터로 보내준다.
@@ -187,7 +187,7 @@ public static String findBinary(int decimal, String result){
 ### ✔️ 4. Binary Search
 > 이진 탐색은 정렬된 숫자 목록을 살펴본다. 예를 들어 배열이라 하면 꼭 숫자가 정렬되어있어야한다.
 
-![img_5.png](../src/Algo_Knowledge/img_5.png)
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/8b24134e-3b30-4cef-8108-b167932baf2b)
 
 해당 ARRAY에서 10이라는 숫자를 찾는다고 해보자
 
@@ -215,15 +215,14 @@ public static int binarySearch(int[] A, int left, int right, int x){
 - 찾는 값이 더 크기 때문에 마지막 15줄 재귀함수를 실행한다.
 - 이렇게 계속해서 반으로 나누고 찾는 값의 크기를 비교해간다.
 
-![img_6.png](../src/Algo_Knowledge/img_6.png)
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/b2db43a5-bf43-40cd-abe4-a9757eec3a6e)
 
 - 마지막 STACK 함수에서 10을 찾았으니(종료조건) 순서대로 POP해 나아간다.
 
 ### ✔️ 5. Fibonacci (Non-Optimized)
 > 나중에 **Memoization**을 통해 최적화를 해보자. 여기서는 최적화되지 않은 버젼을 볼것이다. **피보나치**(Fibonacci)는 어떤 입력 값이 n인 경우, 해당 인덱스의 값은 그 이전 두 인덱스의 값의 합으로 구성된다는 것을 알고있을 것이다.
 
-
-![img_7.png](../src/Algo_Knowledge/img_7.png)
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/a08c40b0-717b-46fe-9ac2-573a960845c5)
 
 - 예를 들어 위의 그림을 보면 13의 값은 이전 두개의 인덱스의 값의 5와 8의 합으로 나타낼 수 있다.
 
@@ -244,7 +243,7 @@ public static long fib(long n){
 - 그러면 결국 5번째 인덱스의 값을 찾을 때 그 전 인덱스 4,3의 값을 반환하며 더해 결과를 얻을 수 있다.
 - 그림을 보면 이해가 쉬울 것이다.
 
-![img_8.png](../src/Algo_Knowledge/img_8.png)
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/1f0012dd-3b42-4b3e-9049-7a28ca3d035d)
 
 - 다음과 같은 구조로 이루어져 있다.
 - 하지만 여기서 문제가 있다. **중복되는 값**들이 존재한다는 것이다.
@@ -360,7 +359,7 @@ public static long fib(long n){
 > 이진트리(Binary Tree)는 위에서부터 아래로 시작하여 여러 연결이 형성되어있다.
 > 하나의 노드에서 가질 수 있는 자식의 수는 최대로 2이고 최소로 0이다. 여기에 여러 숫자를 추가하며 트리의 특성을 분석해보자
 
-![img_9.png](../src/Algo_Knowledge/img_9.png)
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/2a65fe16-d435-4138-b93e-9d0fecac7601)
 
 다음과 같은 이진트리가 있다고 가정해보자
 
@@ -369,7 +368,7 @@ public static long fib(long n){
 - 이 규칙에서 우리는 노드 108을 삽입한다고 가정해보자
 - 우린 108 루트노드 부터 계속해서 값을 비교해가며 108이 어떤 자리에 들어갈지 재귀적으로 판단할 수 있다.
 
-![img_10.png](../src/Algo_Knowledge/img_10.png)
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/cca57588-7765-4c0b-afc8-2979eb1a798e)
 
 ```java
 public Node insertNode(Node head, int data){  
@@ -391,7 +390,7 @@ public Node insertNode(Node head, int data){
 - 콜스택을 보며 흐름을 이해해보면 쉬울것이다.
 - 예시는 아까 그림에서 108의 값을 새로운 노드로 추가하기 위한 알고리즘이다.
 
-![img_11.png](../src/Algo_Knowledge/img_11.png)
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/83faa5f8-9f83-4063-afd7-5c622c126502)
 
 - insert_node 함수를 호출한다.
 - 100과 108을 비교한다. 108이 100보다 크다는 것을 알고 오른쪽 재귀로 이동한다.
@@ -425,7 +424,7 @@ public static void printLeaves(Node root){
 ### ✔️ 9. Graph (DFS)
 > 그래프는 DFS라는 아주 인기있는 알고리즘을 통해 알아보자
 
-![img_12.png](../src/Algo_Knowledge/img_12.png)
+![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/752caa69-859b-496c-bf09-b45cf237176b)
 
 - 우린 노드 A에서 시작해서 노드 H를 찾고 있다고 가정한다.
 
