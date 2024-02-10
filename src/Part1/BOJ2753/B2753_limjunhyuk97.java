@@ -2,7 +2,7 @@ package Part1.BOJ2753;
 
 import java.util.Scanner;
 
-public class Pt1_2753_JH {
+public class B2753_limjunhyuk97 {
 
     public static Scanner sc = new Scanner(System.in);
     public static Integer year;

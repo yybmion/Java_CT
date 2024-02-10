@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Pt1_4344_JH {
+public class B4344_limjunhyuk97 {
 
     public static int C, N, arr[];
 

@@ -2,7 +2,7 @@ package Part1.BOJ10869;
 
 import java.util.Scanner;
 
-public class Pt1_10869_JH {
+public class B10869_limjunhyuk97 {
 
     public static void main(String args[]) {
         Integer A, B;
