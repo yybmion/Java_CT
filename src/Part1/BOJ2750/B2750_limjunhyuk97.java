@@ -3,7 +3,7 @@ package Part1.BOJ2750;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Pt1_2750_임준혁 {
+public class B2750_limjunhyuk97 {
 
     public static final int MAX_N = 1005;
 
@@ -32,7 +32,7 @@ public class Pt1_2750_임준혁 {
 }
 
 /**
- * [정렬] Java 배열 정렬 (https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#sort-java.lang.Object:A-)
+ * [정렬] Arrays.sort() (https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#sort-java.lang.Object:A-)
  * - public static void sort(Object[] a)
  * - public static void sort(Object[] a, int fromIndex, int toIndex)
  * - public static <T> void sort(T[] a, Comparator <? super T> c)
@@ -41,7 +41,7 @@ public class Pt1_2750_임준혁 {
  * (1) public static void sort(Object[] a)
  * - 기본적으로 오름차순(Natural Ordering)으로 정렬함
  * - 이러한 정렬이 가능하기 위해서는 배열 각 element 에 "Comparable" Interface가 존재해야 함
- * - 정렬에는 Merge Sort 정도의 O(NlogN) 정도의 시간 소요
+ * - 정렬에는 Merge Sort 정도의 O(NlogN) ~ O(N^2) 의 시간 복잡도가 소요됨
  *
  * (1-1) Interface Comparable<T> (https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html)
  * - int compareTo(T o1, T o2) 라는 메서드를 필요에 따라 재정의 해야 한다.

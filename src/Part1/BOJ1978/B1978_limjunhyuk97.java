@@ -2,7 +2,7 @@ package Part1.BOJ1978;
 
 import java.util.Scanner;
 
-public class Pt1_1978_임준혁 {
+public class B1978_limjunhyuk97 {
 
     public static int N=0, sum=0;
 

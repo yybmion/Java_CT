@@ -2,7 +2,7 @@ package Part1.BOJ10871;
 
 import java.util.Scanner;
 
-public class Pt1_10871_JH {
+public class B10871_limjunhyuk97 {
 
     public static int N, X;
 

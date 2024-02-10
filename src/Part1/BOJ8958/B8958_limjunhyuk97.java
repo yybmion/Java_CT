@@ -2,7 +2,7 @@ package Part1.BOJ8958;
 
 import java.util.Scanner;
 
-public class Pt1_8958_JH {
+public class B8958_limjunhyuk97 {
 
     public static int N;
     public static int DP[] = new int[82];

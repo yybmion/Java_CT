@@ -2,7 +2,7 @@ package Part1.BOJ2588;
 
 import java.util.Scanner;
 
-public class Pt1_2588_JH {
+public class B2588_limjunhyuk97 {
 
     public static Scanner sc = new Scanner(System.in);
 

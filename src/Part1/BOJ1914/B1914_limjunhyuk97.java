@@ -3,7 +3,7 @@ package Part1.BOJ1914;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class Pt1_1914_임준혁 {
+public class B1914_limjunhyuk97 {
 
     public static int MAX_CNT = 105;
 

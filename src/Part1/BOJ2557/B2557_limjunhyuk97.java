@@ -1,6 +1,6 @@
 package Part1.BOJ2557;
 
-public class Pt1_2557_JH {
+public class B2557_limjunhyuk97 {
     public static void main(String[] args) {
         System.out.println("Hello World!");
 

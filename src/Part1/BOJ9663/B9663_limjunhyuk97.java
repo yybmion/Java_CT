@@ -2,7 +2,7 @@ package Part1.BOJ9663;
 
 import java.util.Scanner;
 
-public class Pt1_9663_임준혁 {
+public class B9663_limjunhyuk97 {
 
     public static final int MAX_GRID_LENGTH = 20;
 
