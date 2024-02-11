@@ -1,20 +1,23 @@
-package Part1.BOJ2869;
+package Part1.BOJ2588;
 
 import java.io.*;
 
-public class Pt1_2869_김정한 {
+public class B2588_jjeonghak {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringBuilder sb = new StringBuilder();
 
-		String[] input = br.readLine().split(" ");
+		int a = Integer.parseInt(br.readLine());
+		int b = Integer.parseInt(br.readLine());
 
-		int g = Integer.parseInt(input[2]) - Integer.parseInt(input[1]);
-		int diff = Integer.parseInt(input[0]) - Integer.parseInt(input[1]);
-
-		sb.append(g % diff == 0 ? g / diff : (g / diff) + 1);
+		int iter = b;
+		while (iter != 0) {
+			sb.append(a * (iter % 10)).append("\n");
+			iter /= 10;
+		}
+		sb.append(a * b).append("\n");
 
 		bw.write(sb.toString());
 		bw.close();

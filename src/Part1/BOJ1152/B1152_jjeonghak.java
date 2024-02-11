@@ -1,23 +1,21 @@
-package Part1.BOJ2753;
+package Part1.BOJ1152;
 
 import java.io.*;
 
-public class Pt1_2753_김정한 {
+public class B1152_jjeonghak {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringBuilder sb = new StringBuilder();
 
-		sb.append(check(Integer.parseInt(br.readLine())));
+		String input = br.readLine().trim();
+		int ans = input.isBlank() ? 0 : input.split(" ").length;
 
+		sb.append(ans);
 		bw.write(sb.toString());
 		bw.close();
 		br.close();
-	}
-
-	private static int check(int n) {
-		return (n % 4 == 0 && n % 100 != 0) || (n % 400 == 0) ? 1 : 0;
 	}
 
 }
