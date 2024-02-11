@@ -1,10 +1,10 @@
-package Part1.BOJ2309;
+package Part1.BOJ2390;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class B2309_limjunhyuk97 {
+public class B2390_limjunhyuk97 {
 
     static int MAX_DWARF_COUNT = 9;
 
