@@ -2,7 +2,7 @@ package Part1.BOJ2557;
 
 import java.io.*;
 
-public class Pt1_2557_YB {
+public class B2557_yybmion {
     public static void main(String[] args) throws IOException {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 

@@ -1,8 +1,10 @@
+package Part1.BOJ8958;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.nio.Buffer;
 
-public class Main {
+public class B8958_samgashyeong {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int a = Integer.parseInt(br.readLine());

@@ -2,7 +2,7 @@ package Part1.BOJ9663;
 
 import java.io.*;
 
-public class Pt1_9663_윤유빈 {
+public class B9663_yybmion {
 
     static int N=0;
     static int count=0;
@@ -44,5 +44,6 @@ public class Pt1_9663_윤유빈 {
 
 
 /**
- * 아직 작성하지 못했습니다 ㅜㅜㅜ 작성 예정 !
+ * 작성 예정 ㅜㅜ
+ * https://jisunshine.tistory.com/186
  */

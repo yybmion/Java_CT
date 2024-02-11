@@ -3,7 +3,7 @@ package Part1.BOJ1978;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Pt1_1978_YB {
+public class B1978_yybmion {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

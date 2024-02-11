@@ -2,7 +2,7 @@ package Part1.BOJ2588;
 
 import java.io.*;
 
-public class Pt1_2588_YB {
+public class B2588_yybmion {
     public static void main(String[] args) throws IOException {
 
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

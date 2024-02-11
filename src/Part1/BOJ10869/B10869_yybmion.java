@@ -3,7 +3,7 @@ package Part1.BOJ10869;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Pt1_10869_YB {
+public class B10869_yybmion {
 
     public static void main(String[] args) throws IOException {
 

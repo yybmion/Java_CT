@@ -3,7 +3,7 @@ package Part1.BOJ1914;
 import java.io.*;
 import java.math.BigInteger;
 
-public class Pt1_1914_YB {
+public class B1914_yybmion {
     static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

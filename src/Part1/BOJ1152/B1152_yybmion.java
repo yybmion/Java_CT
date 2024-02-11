@@ -2,7 +2,7 @@ package Part1.BOJ1152;
 
 import java.io.*;
 
-public class Pt1_1152_YB {
+public class B1152_yybmion {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
