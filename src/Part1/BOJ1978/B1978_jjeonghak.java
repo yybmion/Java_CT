@@ -3,7 +3,7 @@ package Part1.BOJ1978;
 import java.io.*;
 import java.util.Arrays;
 
-public class Pt1_1978_김정한 {
+public class B1978_jjeonghak {
 
 	private static boolean[] check = new boolean[1001];
 

@@ -3,7 +3,7 @@ package Part1.BOJ8958;
 import java.io.*;
 import java.util.Arrays;
 
-public class Pt1_8958_김정한 {
+public class B8958_jjeonghak {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

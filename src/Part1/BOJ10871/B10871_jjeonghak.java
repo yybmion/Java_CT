@@ -1,8 +1,10 @@
-package Part1.BOJ10869;
+package Part1.BOJ10871;
 
 import java.io.*;
+import java.util.*;
+import java.util.stream.Collectors;
 
-public class Pt1_10869_김정한 {
+public class B10871_jjeonghak {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -10,15 +12,14 @@ public class Pt1_10869_김정한 {
 		StringBuilder sb = new StringBuilder();
 
 		String[] input = br.readLine().split(" ");
-		int a = Integer.parseInt(input[0]);
-		int b = Integer.parseInt(input[1]);
+		int x = Integer.parseInt(input[1]);
 
-		sb
-			.append(a + b).append("\n")
-			.append(a - b).append("\n")
-			.append(a * b).append("\n")
-			.append(a / b).append("\n")
-			.append(a % b).append("\n");
+		List<Integer> arr = Arrays.stream(br.readLine().split(" "))
+				.map(Integer::parseInt)
+				.filter(i -> i < x)
+				.collect(Collectors.toList());
+
+		arr.forEach(i -> sb.append(i).append(" "));
 
 		bw.write(sb.toString());
 		bw.close();

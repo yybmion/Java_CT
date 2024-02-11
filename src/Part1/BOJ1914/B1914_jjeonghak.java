@@ -3,7 +3,7 @@ package Part1.BOJ1914;
 import java.io.*;
 import java.math.BigInteger;
 
-public class Pt1_1914_김정한 {
+public class B1914_jjeonghak {
 
 	private static final int TOTAL = 6;
 	private static final StringBuilder sb = new StringBuilder();
