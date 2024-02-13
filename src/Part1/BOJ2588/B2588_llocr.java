@@ -2,7 +2,7 @@ package Part1.BOJ2588;
 
 import java.util.Scanner;
 
-public class Pt1_2558_HS {
+public class B2588_llocr {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int A = sc.nextInt();
