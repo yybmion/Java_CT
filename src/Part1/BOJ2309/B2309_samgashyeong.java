@@ -6,7 +6,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
-public class Main {
+public class B2309_samgashyeong {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
