@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Pt1_2753_KJH {
+public class B2753_kimjiheej {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

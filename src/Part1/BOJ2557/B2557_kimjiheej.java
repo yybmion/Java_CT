@@ -3,7 +3,7 @@ import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class Pt1_2557_KJH {
+public class B2557_kimjiheej {
 
     public static void main(String[] args) {
 

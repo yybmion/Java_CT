@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Pt1_1152_김지희 {
+public class B1152_kimjiheej {
 
     public static void main(String[] args) throws IOException {
 

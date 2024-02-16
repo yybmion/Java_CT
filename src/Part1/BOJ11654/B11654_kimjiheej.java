@@ -3,7 +3,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Pt1_11654_김지희 {
+public class B11654_kimjiheej {
 
     public static void main(String[] args) throws IOException {
 
