@@ -1,6 +1,6 @@
 package Part1.BOJ2557;
 
-public class Pt1_2557_SH {
+public class B2557_99hyeon {
 
     public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package Part1.BOJ2588;
 
 import java.io.*;
 
-public class Pt1_2588_SH {
+public class B2588_99hyeon {
 
     public static void main(String[] args) throws IOException {
 
