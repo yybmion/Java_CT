@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Pt1_8958_KJH {
+public class B8958_kimjiheej {
 
     public static void main(String[] args) throws IOException {
 

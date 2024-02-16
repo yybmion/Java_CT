@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Pt1_2588_KJH {
+public class B2588_kimjiheej {
 
     public static void main(String[] args) throws IOException {
 

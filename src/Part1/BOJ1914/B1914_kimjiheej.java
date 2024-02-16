@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Pt1_1914_김지희 {
+public class B1914_kimjiheej {
 
     static int count = 0;
 
