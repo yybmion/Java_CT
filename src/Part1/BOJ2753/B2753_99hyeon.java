@@ -2,7 +2,7 @@ package Part1.BOJ2753;
 
 import java.io.*;
 
-public class Pt1_2753_SH {
+public class B2753_99hyeon {
 
     public static void main(String[] args) throws IOException {
 

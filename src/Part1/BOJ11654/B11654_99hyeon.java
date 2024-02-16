@@ -2,7 +2,7 @@ package Part1.BOJ11654;
 
 import java.io.*;
 
-public class Pt1_11654_박서현 {
+public class B11654_99hyeon {
 
     public static void main(String[] args) throws IOException {
 
