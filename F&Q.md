@@ -157,11 +157,8 @@ git pull origin main --allow-unrelated-histories
 
 ### 3. 클래스 이름은 어떻게 하나요?
 
-> 클래스파일 이름은 다음과 같이 통일합니다.
-> 파트 1 문제를 풀고 있을때 예시입니다.
-> Pt1_문제 번호_자신의 이름 영문 이니셜(뒤 두자리)
+클래스 이름은 B<문제번호>_<깃허브닉네임> 형식을 지켜주시길 바랍니다. ex) B1000_yybmion
 
- ![image](https://github.com/Algorithms-CT/Java_CT/assets/113106136/fb5c4bff-c1a0-4b60-b81d-01bb591bd72c)
 
 
 
