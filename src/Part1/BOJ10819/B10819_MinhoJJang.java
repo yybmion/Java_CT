@@ -3,7 +3,7 @@ package Part1.BOJ10819;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class Pt1_10819_장민호 {
+public class B10819_MinhoJJang {
     static int max_N = 100;
 
     static String[] memo = new String[max_N + 1];
