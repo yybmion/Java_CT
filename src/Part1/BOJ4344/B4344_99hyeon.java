@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class Pt1_4344_박서현 {
+public class B4344_99hyeon {
 
     public static void main(String[] args) throws IOException {
 
