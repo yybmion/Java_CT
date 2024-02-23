@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.*;
 
-public class Algo16564 {
+public class B16564_kimjiheej {
 
     static long arr[];
 
