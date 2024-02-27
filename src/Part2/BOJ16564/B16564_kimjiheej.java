@@ -1,10 +1,12 @@
+package Part2.BOJ16564;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.*;
 
-public class Algo16564 {
+public class B16564_kimjiheej {
 
     static long arr[];
 
