@@ -8,8 +8,6 @@ import java.util.Stack;
 import java.util.StringTokenizer;
 
 public class B9012_samgasheong {
-
-    //
     public static void main(String[] args) throws Exception{
         //BufferedReader로 입력 더 빠르게 하기
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
