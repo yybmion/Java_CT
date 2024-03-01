@@ -1,10 +1,12 @@
+package Part1.BOJ2390;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class B2309_kimjiheej {
+public class B2390_kimjiheej {
 
     public static void main(String[] args) throws IOException {
 
