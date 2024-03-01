@@ -1,3 +1,5 @@
+package Part1.BOJ1914;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
@@ -9,7 +11,7 @@ import java.util.StringTokenizer;
 
 
 
-public class Main {
+public class B1914_samgashyeong {
 
     //원래 풀었던 문제라서 낯설진 않았지만, 큰 정수를 다룰 때 어떻게 다뤄야되는지 몰랐던 상태라 삽질을 좀 했던 문제.
     public static ArrayList<String> sarr = new ArrayList<>();
