@@ -1,3 +1,5 @@
+package Part1.BOJ2390;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
