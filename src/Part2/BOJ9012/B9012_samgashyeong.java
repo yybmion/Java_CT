@@ -1,3 +1,5 @@
+package Part2.BOJ9012;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -7,7 +9,7 @@ import java.util.Queue;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class B9012_samgasheong {
+public class B9012_samgashyeong {
     public static void main(String[] args) throws Exception{
         //BufferedReader로 입력 더 빠르게 하기
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
