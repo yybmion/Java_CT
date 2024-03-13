@@ -1,10 +1,12 @@
+package Part1.BOJ10819;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
-public class Main {
+public class B10819_samgashyeong {
     //백트랙킹 개념을 다 잊어먹은지 오래라 개념 다시 상기 시키고 풀었던 문제. 코드가 엄청 지저분한데 이제 코드를 클린하게 하는 연습이 필요할 듯
 
     public static void f(int num, int size, ArrayList<Boolean> chk, ArrayList<Integer> result, ArrayList<Integer> resultSum, ArrayList<Integer> arrNum){
