@@ -37,6 +37,6 @@ public class B9012_samgashyeong {
             System.out.print(num+", ");
         }
 
-        
+
     }
 }
