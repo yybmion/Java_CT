@@ -1,53 +1,42 @@
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
-import java.nio.Buffer;
+import java.io.OutputStreamWriter;
+import java.math.BigInteger;
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Stack;
 import java.util.StringTokenizer;
- 
+
 public class B2751_samgashyeong {
-    static boolean[][] arr = new boolean[15][15];
 
-	public static void main(String[] args) throws Exception{
+    static StringBuilder sb = new StringBuilder();
+
+    public static void main(String[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        int n = Integer.parseInt(br.readLine());
+        StringBuilder sb = new StringBuilder();
+        StringTokenizer st;
         
+        int n = Integer.parseInt(br.readLine());
 
-        HashSet<String> input = new HashSet<>();
+        ArrayList<Integer> arr = new ArrayList<>();
 
         for(int i=0;i<n;i++){
-            input.add(br.readLine());
+            arr.add(Integer.parseInt(br.readLine()));
+        }
+        Collections.sort(arr);
+        for(int i=0;i<n;i++){
+            sb.append(arr.get(i)).append("\n");
         }
         
-        ArrayList<String> arr = new ArrayList<>(input);
-
-        Collections.sort(arr, new Comparator<String>() {
-			
-			@Override
-			public int compare(String o1, String o2) {
-
-                if(o1.length() == o2.length()){
-                    return o1.compareTo(o2);
-                }
-				else{
-                    return o1.length()-o2.length();
-                }
-			}
-		});
-
-
-        for(int i=0;i<arr.size();i++){
-            System.out.println(arr.get(i));
-        }
+        System.out.println(sb);
         
-
-
-
-	}
+    }
 }
