@@ -1,5 +1,3 @@
-package Part2.BOJ9012;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -9,7 +7,9 @@ import java.util.Queue;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class B9012_samgashyeong {
+public class B11866_samgashyeong {
+
+    //문제의 흐름을 잘 따라면 쉽게 풀 수 있는 문제였던 것 같다.
     public static void main(String[] args) throws Exception{
         //BufferedReader로 입력 더 빠르게 하기
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -17,10 +17,10 @@ public class B9012_samgashyeong {
 
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int n = st.nextToken();
-        int k = st.nextToken();
+        int n = Integer.parseInt(st.nextToken());
+        int k = Integer.parseInt(st.nextToken());
 
-        Queue<Integer> que = new Queue<>();
+        Queue<Integer> que = new LinkedList<>();
         for(int i = 0;i<n;i++){
             que.add(i+1);
         }
@@ -34,9 +34,15 @@ public class B9012_samgashyeong {
             }
 
             int num = que.poll();
-            System.out.print(num+", ");
+            if(que.size()==0){
+                System.out.print(num+">");
+            }
+            else{
+                System.out.print(num+", ");
+            }
         }
+        
 
-
+        
     }
 }
