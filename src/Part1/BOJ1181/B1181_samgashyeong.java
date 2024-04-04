@@ -15,34 +15,19 @@ public class B1181_samgashyeong {
 	public static void main(String[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int n = Integer.parseInt(br.readLine());
-        
+        String input = br.readLine();
 
-        HashSet<String> input = new HashSet<>();
-
-        for(int i=0;i<n;i++){
-            input.add(br.readLine());
+        if(input == "SONGDO"){
+            System.out.println("HIGHSCHOOL");
         }
-
-        ArrayList<String> arr = new ArrayList<>(input);
-
-        Collections.sort(arr, new Comparator<String>() {
-			
-			@Override
-			public int compare(String o1, String o2) {
-
-                if(o1.length() == o2.length()){
-                    return o1.compareTo(o2);
-                }
-				else{
-                    return o1.length()-o2.length();
-                }
-			}
-		});
-
-
-        for(int i=0;i<arr.size();i++){
-            System.out.println(arr.get(i));
+        if(input == "CODE"){
+            System.out.println("MASTER");
+        }
+        if(input == "2023"){
+            System.out.println("0611");
+        }
+        if(input == "ALGORITHM"){
+            System.out.println("CONTEST");
         }
         
 
