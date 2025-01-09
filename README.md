@@ -1,8 +1,8 @@
-# Java-CT
+# Java-CT        <img src="https://img.shields.io/badge/JAVA-FF160B?style=for-the-badge&logo=java&logoColor=white">
 
 ## 자바를 통해 Algorithm을 배우는 공간
 
-### Part 1. 등교준비는 차근차근 🏋🏋
+## Part 1. 등교준비는 차근차근 🏋🏋
 
 > 핵심 키워드 :
 > 배열, 문자열, 반복문과 재귀함수, 계산복잡도, 정렬, 완전탐색, 정수론
