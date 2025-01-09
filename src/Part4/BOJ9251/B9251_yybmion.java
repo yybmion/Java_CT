@@ -22,7 +22,6 @@ public class B9251_yybmion {
                 }
             }
         }
-
         System.out.println(dp[arr1.length][arr2.length]);
     }
 }
